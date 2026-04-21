@@ -163,7 +163,7 @@ map.on("click", e => {
 // ── LOAD ─────────────────────────────────────────────────────────────
 function loadGeoJSON(geojson) {
   allVessels = geojson.features || []; searchIndex = [];
-  setProgress(8, "BUILDING INDEX…");
+  setProgress(8, "indexing…");
   let uw=0, mo=0, an=0;
   for (let i = 0; i < allVessels.length; i++) {
     const p = allVessels[i].properties;
@@ -182,10 +182,10 @@ function loadGeoJSON(geojson) {
   const CHUNK = 1000, total = allVessels.length; let idx = 0;
   function chunk() {
     idx = Math.min(idx+CHUNK, total);
-    setProgress(8+Math.round((idx/total)*88), `RENDERING… ${idx.toLocaleString()} / ${total.toLocaleString()}`);
+    setProgress(8+Math.round((idx/total)*88), `rendering… ${idx.toLocaleString()} / ${total.toLocaleString()}`);
     redrawCanvas();
     if (idx < total) { window.requestIdleCallback ? requestIdleCallback(chunk,{timeout:40}) : setTimeout(chunk,0); }
-    else { setProgress(100,"READY"); setTimeout(()=>document.getElementById("loader").classList.add("done"),300); applyFilter(); }
+    else { setProgress(100,"done"); setTimeout(()=>document.getElementById("loader").classList.add("done"),300); applyFilter(); }
   }
   window.requestIdleCallback ? requestIdleCallback(chunk,{timeout:40}) : setTimeout(chunk,0);
 }
@@ -368,9 +368,9 @@ document.getElementById("search-inp").addEventListener("input", e => {
 });
 document.getElementById("file-input").addEventListener("change", e => {
   const file=e.target.files[0]; if(!file) return;
-  document.getElementById("loader").classList.remove("done"); setProgress(0,"READING FILE…");
+  document.getElementById("loader").classList.remove("done"); setProgress(0,"reading file…");
   const reader=new FileReader();
-  reader.onload=evt => { try { setProgress(5,"PARSING…"); setTimeout(()=>loadGeoJSON(JSON.parse(evt.target.result)),50); } catch { alert("Invalid GeoJSON."); document.getElementById("loader").classList.add("done"); } };
+  reader.onload=evt => { try { setProgress(5,"parsing…"); setTimeout(()=>loadGeoJSON(JSON.parse(evt.target.result)),50); } catch { alert("Invalid GeoJSON."); document.getElementById("loader").classList.add("done"); } };
   reader.readAsText(file);
 });
 

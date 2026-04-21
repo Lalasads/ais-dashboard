@@ -3,9 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0" />
-    <title>MarineTrack · AIS</title>
+    <title>AIS Viewer</title>
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;700&display=swap"
       rel="stylesheet"
     />
     <link
@@ -33,11 +33,11 @@
           <path d="M12 2L22 20H2L12 2Z" fill="white" />
         </svg>
       </div>
-      <div class="loader-name">MARINETRACK</div>
+      <div class="loader-name">AIS Viewer</div>
       <div class="loader-bar-track">
         <div class="loader-bar" id="lbar"></div>
       </div>
-      <div class="loader-sub" id="lsub">INITIALIZING…</div>
+      <div class="loader-sub" id="lsub">loading…</div>
     </div>
 
     <div id="map"></div>
@@ -67,11 +67,10 @@
         <div class="brand-icon">
           <svg viewBox="0 0 24 24"><path d="M12 2L22 20H2L12 2Z" /></svg>
         </div>
-        <span class="brand-name">MarineTrack</span>
-        <span class="brand-sub">AIS</span>
+        <span class="brand-name">AIS Viewer</span>
         <div class="live-badge" style="margin-left: 10px">
           <div class="live-dot"></div>
-          <span class="live-text">LIVE</span>
+          <span class="live-text">live</span>
         </div>
       </div>
       <div class="stats-row">
@@ -231,8 +230,8 @@
         <span class="bbox-sep">→</span>
         <input id="bb-nlat" placeholder="N Lat" type="number" step="any" />
         <input id="bb-elng" placeholder="E Lng" type="number" step="any" />
-        <button class="bbox-form-btn" onclick="runBbox()">COUNT</button>
-        <button class="bbox-form-btn draw" onclick="startDraw()">DRAW ⬚</button>
+        <button class="bbox-form-btn" onclick="runBbox()">count</button>
+        <button class="bbox-form-btn draw" onclick="startDraw()">draw ⬚</button>
       </div>
       <div class="bbox-result" id="bbox-res">
         <span class="bbox-result-num" id="bbox-num">0</span>
