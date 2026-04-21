@@ -1,0 +1,2525 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.958388,
+          57.052797
+        ]
+      },
+      "properties": {
+        "mmsi": 219000552,
+        "vessel_name": "Vessel_219000552",
+        "timestamp": "2024-09-12T17:11:01Z",
+        "sog": 0.0,
+        "cog": 172.1,
+        "heading": 241,
+        "nav_status": 5,
+        "nav_status_text": "Moored",
+        "message_type": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.98378,
+          57.082225
+        ]
+      },
+      "properties": {
+        "mmsi": 219001083,
+        "vessel_name": "Vessel_219001083",
+        "timestamp": "2024-09-12T17:11:01Z",
+        "sog": 0.0,
+        "cog": 122.8,
+        "heading": 186,
+        "nav_status": 0,
+        "nav_status_text": "Under way using engine",
+        "message_type": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.88208,
+          57.058978
+        ]
+      },
+      "properties": {
+        "mmsi": 219015127,
+        "vessel_name": "Vessel_219015127",
+        "timestamp": "2024-09-12T17:11:02Z",
+        "sog": 0.0,
+        "cog": 229.3,
+        "heading": 20,
+        "nav_status": 5,
+        "nav_status_text": "Moored",
+        "message_type": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.237722,
+          56.983312
+        ]
+      },
+      "properties": {
+        "mmsi": 246779000,
+        "vessel_name": "Vessel_246779000",
+        "timestamp": "2024-09-12T17:11:03Z",
+        "sog": 11.8,
+        "cog": 89.6,
+        "heading": 90,
+        "nav_status": 0,
+        "nav_status_text": "Under way using engine",
+        "message_type": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.303268,
+          56.988192
+        ]
+      },
+      "properties": {
+        "mmsi": 219000873,
+        "vessel_name": "Vessel_219000873",
+        "timestamp": "2024-09-12T17:11:09Z",
+        "sog": 5.5,
+        "cog": 5.0,
+        "heading": null,
+        "nav_status": 0,
+        "nav_status_text": "Under way using engine",
+        "message_type": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.983785,
+          57.082222
+        ]
+      },
+      "properties": {
+        "mmsi": 219001083,
+        "vessel_name": "Vessel_219001083",
+        "timestamp": "2024-09-12T17:11:11Z",
+        "sog": 0.0,
+        "cog": 122.8,
+        "heading": 186,
+        "nav_status": 0,
+        "nav_status_text": "Under way using engine",
+        "message_type": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.882078,
+          57.058978
+        ]
+      },
+      "properties": {
+        "mmsi": 219015127,
+        "vessel_name": "Vessel_219015127",
+        "timestamp": "2024-09-12T17:11:12Z",
+        "sog": 0.0,
+        "cog": 250.1,
+        "heading": 20,
+        "nav_status": 5,
+        "nav_status_text": "Moored",
+        "message_type": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.238722,
+          56.983318
+        ]
+      },
+      "properties": {
+        "mmsi": 246779000,
+        "vessel_name": "Vessel_246779000",
+        "timestamp": "2024-09-12T17:11:13Z",
+        "sog": 11.7,
+        "cog": 89.2,
+        "heading": 90,
+        "nav_status": 0,
+        "nav_status_text": "Under way using engine",
+        "message_type": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.303277,
+          56.988437
+        ]
+      },
+      "properties": {
+        "mmsi": 219000873,
+        "vessel_name": "Vessel_219000873",
+        "timestamp": "2024-09-12T17:11:19Z",
+        "sog": 5.5,
+        "cog": 3.9,
+        "heading": null,
+        "nav_status": 0,
+        "nav_status_text": "Under way using engine",
+        "message_type": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.882077,
+          57.05898
+        ]
+      },
+      "properties": {
+        "mmsi": 219015127,
+        "vessel_name": "Vessel_219015127",
+        "timestamp": "2024-09-12T17:11:22Z",
+        "sog": 0.0,
+        "cog": 315.9,
+        "heading": 20,
+        "nav_status": 5,
+        "nav_status_text": "Moored",
+        "message_type": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.239717,
+          56.983325
+        ]
+      },
+      "properties": {
+        "mmsi": 246779000,
+        "vessel_name": "Vessel_246779000",
+        "timestamp": "2024-09-12T17:11:23Z",
+        "sog": 11.7,
+        "cog": 89.2,
+        "heading": 90,
+        "nav_status": 0,
+        "nav_status_text": "Under way using engine",
+        "message_type": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.983787,
+          57.082222
+        ]
+      },
+      "properties": {
+        "mmsi": 219001083,
+        "vessel_name": "Vessel_219001083",
+        "timestamp": "2024-09-12T17:11:23Z",
+        "sog": 0.0,
+        "cog": 122.8,
+        "heading": 186,
+        "nav_status": 0,
+        "nav_status_text": "Under way using engine",
+        "message_type": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.303312,
+          56.98869
+        ]
+      },
+      "properties": {
+        "mmsi": 219000873,
+        "vessel_name": "Vessel_219000873",
+        "timestamp": "2024-09-12T17:11:28Z",
+        "sog": 5.6,
+        "cog": 2.3,
+        "heading": null,
+        "nav_status": 0,
+        "nav_status_text": "Under way using engine",
+        "message_type": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.970867,
+          57.064233
+        ]
+      },
+      "properties": {
+        "mmsi": 209535000,
+        "vessel_name": "Vessel_209535000",
+        "timestamp": "2024-09-12T17:11:30Z",
+        "sog": 0.0,
+        "cog": 113.5,
+        "heading": 200,
+        "nav_status": 5,
+        "nav_status_text": "Moored",
+        "message_type": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.240717,
+          56.98333
+        ]
+      },
+      "properties": {
+        "mmsi": 246779000,
+        "vessel_name": "Vessel_246779000",
+        "timestamp": "2024-09-12T17:11:32Z",
+        "sog": 11.8,
+        "cog": 89.5,
+        "heading": 90,
+        "nav_status": 0,
+        "nav_status_text": "Under way using engine",
+        "message_type": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.882075,
+          57.058982
+        ]
+      },
+      "properties": {
+        "mmsi": 219015127,
+        "vessel_name": "Vessel_219015127",
+        "timestamp": "2024-09-12T17:11:32Z",
+        "sog": 0.0,
+        "cog": 336.3,
+        "heading": 20,
+        "nav_status": 5,
+        "nav_status_text": "Moored",
+        "message_type": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.983788,
+          57.082225
+        ]
+      },
+      "properties": {
+        "mmsi": 219001083,
+        "vessel_name": "Vessel_219001083",
+        "timestamp": "2024-09-12T17:11:33Z",
+        "sog": 0.0,
+        "cog": 122.8,
+        "heading": 186,
+        "nav_status": 0,
+        "nav_status_text": "Under way using engine",
+        "message_type": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.3088,
+          56.991483
+        ]
+      },
+      "properties": {
+        "mmsi": 219016689,
+        "vessel_name": "Vessel_219016689",
+        "timestamp": "2024-09-12T17:11:35Z",
+        "sog": 0.0,
+        "cog": 317.5,
+        "heading": 287,
+        "nav_status": 15,
+        "nav_status_text": "Undefined",
+        "message_type": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.303348,
+          56.988973
+        ]
+      },
+      "properties": {
+        "mmsi": 219000873,
+        "vessel_name": "Vessel_219000873",
+        "timestamp": "2024-09-12T17:11:39Z",
+        "sog": 5.6,
+        "cog": 5.7,
+        "heading": null,
+        "nav_status": 0,
+        "nav_status_text": "Under way using engine",
+        "message_type": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.882085,
+          57.058998
+        ]
+      },
+      "properties": {
+        "mmsi": 219015127,
+        "vessel_name": "Vessel_219015127",
+        "timestamp": "2024-09-12T17:11:41Z",
+        "sog": 0.0,
+        "cog": 207.5,
+        "heading": 20,
+        "nav_status": 5,
+        "nav_status_text": "Moored",
+        "message_type": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.047957,
+          57.05566
+        ]
+      },
+      "properties": {
+        "mmsi": 219164000,
+        "vessel_name": "Vessel_219164000",
+        "timestamp": "2024-09-12T17:11:41Z",
+        "sog": 0.0,
+        "cog": 249.2,
+        "heading": 307,
+        "nav_status": 5,
+        "nav_status_text": "Moored",
+        "message_type": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.983783,
+          57.082228
+        ]
+      },
+      "properties": {
+        "mmsi": 219001083,
+        "vessel_name": "Vessel_219001083",
+        "timestamp": "2024-09-12T17:11:42Z",
+        "sog": 0.0,
+        "cog": 122.8,
+        "heading": 185,
+        "nav_status": 0,
+        "nav_status_text": "Under way using engine",
+        "message_type": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.241925,
+          56.983335
+        ]
+      },
+      "properties": {
+        "mmsi": 246779000,
+        "vessel_name": "Vessel_246779000",
+        "timestamp": "2024-09-12T17:11:44Z",
+        "sog": 11.9,
+        "cog": 89.7,
+        "heading": 90,
+        "nav_status": 0,
+        "nav_status_text": "Under way using engine",
+        "message_type": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.303413,
+          56.989192
+        ]
+      },
+      "properties": {
+        "mmsi": 219000873,
+        "vessel_name": "Vessel_219000873",
+        "timestamp": "2024-09-12T17:11:48Z",
+        "sog": 5.6,
+        "cog": 8.7,
+        "heading": null,
+        "nav_status": 0,
+        "nav_status_text": "Under way using engine",
+        "message_type": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.882088,
+          57.059007
+        ]
+      },
+      "properties": {
+        "mmsi": 219015127,
+        "vessel_name": "Vessel_219015127",
+        "timestamp": "2024-09-12T17:11:51Z",
+        "sog": 0.0,
+        "cog": 203.2,
+        "heading": 20,
+        "nav_status": 5,
+        "nav_status_text": "Moored",
+        "message_type": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.983782,
+          57.082227
+        ]
+      },
+      "properties": {
+        "mmsi": 219001083,
+        "vessel_name": "Vessel_219001083",
+        "timestamp": "2024-09-12T17:11:53Z",
+        "sog": 0.0,
+        "cog": 122.8,
+        "heading": 185,
+        "nav_status": 0,
+        "nav_status_text": "Under way using engine",
+        "message_type": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.24294,
+          56.983337
+        ]
+      },
+      "properties": {
+        "mmsi": 246779000,
+        "vessel_name": "Vessel_246779000",
+        "timestamp": "2024-09-12T17:11:54Z",
+        "sog": 11.9,
+        "cog": 89.8,
+        "heading": 91,
+        "nav_status": 0,
+        "nav_status_text": "Under way using engine",
+        "message_type": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.3088,
+          56.991483
+        ]
+      },
+      "properties": {
+        "mmsi": 219016689,
+        "vessel_name": "Vessel_219016689",
+        "timestamp": "2024-09-12T17:11:56Z",
+        "sog": 0.0,
+        "cog": 317.5,
+        "heading": 285,
+        "nav_status": 15,
+        "nav_status_text": "Undefined",
+        "message_type": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.303537,
+          56.989445
+        ]
+      },
+      "properties": {
+        "mmsi": 219000873,
+        "vessel_name": "Vessel_219000873",
+        "timestamp": "2024-09-12T17:11:59Z",
+        "sog": 5.5,
+        "cog": 16.0,
+        "heading": null,
+        "nav_status": 0,
+        "nav_status_text": "Under way using engine",
+        "message_type": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.88209,
+          57.05901
+        ]
+      },
+      "properties": {
+        "mmsi": 219015127,
+        "vessel_name": "Vessel_219015127",
+        "timestamp": "2024-09-12T17:12:02Z",
+        "sog": 0.0,
+        "cog": 228.2,
+        "heading": 21,
+        "nav_status": 5,
+        "nav_status_text": "Moored",
+        "message_type": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.983783,
+          57.082235
+        ]
+      },
+      "properties": {
+        "mmsi": 219001083,
+        "vessel_name": "Vessel_219001083",
+        "timestamp": "2024-09-12T17:12:02Z",
+        "sog": 0.0,
+        "cog": 122.8,
+        "heading": 184,
+        "nav_status": 0,
+        "nav_status_text": "Under way using engine",
+        "message_type": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.24386,
+          56.983337
+        ]
+      },
+      "properties": {
+        "mmsi": 246779000,
+        "vessel_name": "Vessel_246779000",
+        "timestamp": "2024-09-12T17:12:03Z",
+        "sog": 12.0,
+        "cog": 89.7,
+        "heading": 90,
+        "nav_status": 0,
+        "nav_status_text": "Under way using engine",
+        "message_type": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.3088,
+          56.991483
+        ]
+      },
+      "properties": {
+        "mmsi": 219016689,
+        "vessel_name": "Vessel_219016689",
+        "timestamp": "2024-09-12T17:12:06Z",
+        "sog": 0.0,
+        "cog": 317.5,
+        "heading": 284,
+        "nav_status": 15,
+        "nav_status_text": "Undefined",
+        "message_type": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.308387,
+          56.990943
+        ]
+      },
+      "properties": {
+        "mmsi": 219000872,
+        "vessel_name": "Vessel_219000872",
+        "timestamp": "2024-09-12T17:12:08Z",
+        "sog": 0.0,
+        "cog": 359.8,
+        "heading": null,
+        "nav_status": 5,
+        "nav_status_text": "Moored",
+        "message_type": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.303688,
+          56.989705
+        ]
+      },
+      "properties": {
+        "mmsi": 219000873,
+        "vessel_name": "Vessel_219000873",
+        "timestamp": "2024-09-12T17:12:09Z",
+        "sog": 5.4,
+        "cog": 17.9,
+        "heading": null,
+        "nav_status": 0,
+        "nav_status_text": "Under way using engine",
+        "message_type": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.98378,
+          57.082238
+        ]
+      },
+      "properties": {
+        "mmsi": 219001083,
+        "vessel_name": "Vessel_219001083",
+        "timestamp": "2024-09-12T17:12:11Z",
+        "sog": 0.0,
+        "cog": 122.8,
+        "heading": 183,
+        "nav_status": 0,
+        "nav_status_text": "Under way using engine",
+        "message_type": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.88209,
+          57.059012
+        ]
+      },
+      "properties": {
+        "mmsi": 219015127,
+        "vessel_name": "Vessel_219015127",
+        "timestamp": "2024-09-12T17:12:12Z",
+        "sog": 0.0,
+        "cog": 219.1,
+        "heading": 21,
+        "nav_status": 5,
+        "nav_status_text": "Moored",
+        "message_type": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.244782,
+          56.983343
+        ]
+      },
+      "properties": {
+        "mmsi": 246779000,
+        "vessel_name": "Vessel_246779000",
+        "timestamp": "2024-09-12T17:12:13Z",
+        "sog": 12.0,
+        "cog": 89.4,
+        "heading": 90,
+        "nav_status": 0,
+        "nav_status_text": "Under way using engine",
+        "message_type": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.3088,
+          56.991483
+        ]
+      },
+      "properties": {
+        "mmsi": 219016689,
+        "vessel_name": "Vessel_219016689",
+        "timestamp": "2024-09-12T17:12:16Z",
+        "sog": 0.0,
+        "cog": 317.5,
+        "heading": 284,
+        "nav_status": 15,
+        "nav_status_text": "Undefined",
+        "message_type": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.30382,
+          56.98991
+        ]
+      },
+      "properties": {
+        "mmsi": 219000873,
+        "vessel_name": "Vessel_219000873",
+        "timestamp": "2024-09-12T17:12:19Z",
+        "sog": 5.2,
+        "cog": 18.3,
+        "heading": null,
+        "nav_status": 0,
+        "nav_status_text": "Under way using engine",
+        "message_type": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.88209,
+          57.059013
+        ]
+      },
+      "properties": {
+        "mmsi": 219015127,
+        "vessel_name": "Vessel_219015127",
+        "timestamp": "2024-09-12T17:12:22Z",
+        "sog": 0.0,
+        "cog": 222.5,
+        "heading": 21,
+        "nav_status": 5,
+        "nav_status_text": "Moored",
+        "message_type": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.983775,
+          57.082235
+        ]
+      },
+      "properties": {
+        "mmsi": 219001083,
+        "vessel_name": "Vessel_219001083",
+        "timestamp": "2024-09-12T17:12:23Z",
+        "sog": 0.0,
+        "cog": 122.8,
+        "heading": 183,
+        "nav_status": 0,
+        "nav_status_text": "Under way using engine",
+        "message_type": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.245805,
+          56.983353
+        ]
+      },
+      "properties": {
+        "mmsi": 246779000,
+        "vessel_name": "Vessel_246779000",
+        "timestamp": "2024-09-12T17:12:23Z",
+        "sog": 12.0,
+        "cog": 88.8,
+        "heading": 89,
+        "nav_status": 0,
+        "nav_status_text": "Under way using engine",
+        "message_type": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.303958,
+          56.990125
+        ]
+      },
+      "properties": {
+        "mmsi": 219000873,
+        "vessel_name": "Vessel_219000873",
+        "timestamp": "2024-09-12T17:12:28Z",
+        "sog": 4.9,
+        "cog": 19.2,
+        "heading": null,
+        "nav_status": 0,
+        "nav_status_text": "Under way using engine",
+        "message_type": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.246828,
+          56.983368
+        ]
+      },
+      "properties": {
+        "mmsi": 246779000,
+        "vessel_name": "Vessel_246779000",
+        "timestamp": "2024-09-12T17:12:32Z",
+        "sog": 12.0,
+        "cog": 88.1,
+        "heading": 88,
+        "nav_status": 0,
+        "nav_status_text": "Under way using engine",
+        "message_type": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.88209,
+          57.05901
+        ]
+      },
+      "properties": {
+        "mmsi": 219015127,
+        "vessel_name": "Vessel_219015127",
+        "timestamp": "2024-09-12T17:12:32Z",
+        "sog": 0.0,
+        "cog": 182.2,
+        "heading": 21,
+        "nav_status": 5,
+        "nav_status_text": "Moored",
+        "message_type": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.983765,
+          57.082235
+        ]
+      },
+      "properties": {
+        "mmsi": 219001083,
+        "vessel_name": "Vessel_219001083",
+        "timestamp": "2024-09-12T17:12:33Z",
+        "sog": 0.0,
+        "cog": 122.8,
+        "heading": 185,
+        "nav_status": 0,
+        "nav_status_text": "Under way using engine",
+        "message_type": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.3088,
+          56.991483
+        ]
+      },
+      "properties": {
+        "mmsi": 219016689,
+        "vessel_name": "Vessel_219016689",
+        "timestamp": "2024-09-12T17:12:35Z",
+        "sog": 0.0,
+        "cog": 317.5,
+        "heading": 283,
+        "nav_status": 15,
+        "nav_status_text": "Undefined",
+        "message_type": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.983777,
+          57.082232
+        ]
+      },
+      "properties": {
+        "mmsi": 219001083,
+        "vessel_name": "Vessel_219001083",
+        "timestamp": "2024-09-12T17:12:42Z",
+        "sog": 0.0,
+        "cog": 122.8,
+        "heading": 186,
+        "nav_status": 0,
+        "nav_status_text": "Under way using engine",
+        "message_type": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.24795,
+          56.983395
+        ]
+      },
+      "properties": {
+        "mmsi": 246779000,
+        "vessel_name": "Vessel_246779000",
+        "timestamp": "2024-09-12T17:12:44Z",
+        "sog": 12.1,
+        "cog": 87.3,
+        "heading": 87,
+        "nav_status": 0,
+        "nav_status_text": "Under way using engine",
+        "message_type": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.30421,
+          56.990537
+        ]
+      },
+      "properties": {
+        "mmsi": 219000873,
+        "vessel_name": "Vessel_219000873",
+        "timestamp": "2024-09-12T17:12:49Z",
+        "sog": 4.2,
+        "cog": 21.2,
+        "heading": null,
+        "nav_status": 0,
+        "nav_status_text": "Under way using engine",
+        "message_type": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.983777,
+          57.082232
+        ]
+      },
+      "properties": {
+        "mmsi": 219001083,
+        "vessel_name": "Vessel_219001083",
+        "timestamp": "2024-09-12T17:12:51Z",
+        "sog": 0.0,
+        "cog": 122.8,
+        "heading": 187,
+        "nav_status": 0,
+        "nav_status_text": "Under way using engine",
+        "message_type": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.248967,
+          56.983438
+        ]
+      },
+      "properties": {
+        "mmsi": 246779000,
+        "vessel_name": "Vessel_246779000",
+        "timestamp": "2024-09-12T17:12:54Z",
+        "sog": 12.0,
+        "cog": 85.7,
+        "heading": 85,
+        "nav_status": 0,
+        "nav_status_text": "Under way using engine",
+        "message_type": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.304298,
+          56.990667
+        ]
+      },
+      "properties": {
+        "mmsi": 219000873,
+        "vessel_name": "Vessel_219000873",
+        "timestamp": "2024-09-12T17:12:59Z",
+        "sog": 3.2,
+        "cog": 21.2,
+        "heading": null,
+        "nav_status": 0,
+        "nav_status_text": "Under way using engine",
+        "message_type": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.983778,
+          57.082232
+        ]
+      },
+      "properties": {
+        "mmsi": 219001083,
+        "vessel_name": "Vessel_219001083",
+        "timestamp": "2024-09-12T17:13:02Z",
+        "sog": 0.0,
+        "cog": 122.8,
+        "heading": 186,
+        "nav_status": 0,
+        "nav_status_text": "Under way using engine",
+        "message_type": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.24998,
+          56.983492
+        ]
+      },
+      "properties": {
+        "mmsi": 246779000,
+        "vessel_name": "Vessel_246779000",
+        "timestamp": "2024-09-12T17:13:04Z",
+        "sog": 12.0,
+        "cog": 84.3,
+        "heading": 83,
+        "nav_status": 0,
+        "nav_status_text": "Under way using engine",
+        "message_type": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.304382,
+          56.990803
+        ]
+      },
+      "properties": {
+        "mmsi": 219000873,
+        "vessel_name": "Vessel_219000873",
+        "timestamp": "2024-09-12T17:13:09Z",
+        "sog": 2.2,
+        "cog": 20.3,
+        "heading": null,
+        "nav_status": 0,
+        "nav_status_text": "Under way using engine",
+        "message_type": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.983785,
+          57.082232
+        ]
+      },
+      "properties": {
+        "mmsi": 219001083,
+        "vessel_name": "Vessel_219001083",
+        "timestamp": "2024-09-12T17:13:11Z",
+        "sog": 0.0,
+        "cog": 122.8,
+        "heading": 185,
+        "nav_status": 0,
+        "nav_status_text": "Under way using engine",
+        "message_type": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.250892,
+          56.983558
+        ]
+      },
+      "properties": {
+        "mmsi": 246779000,
+        "vessel_name": "Vessel_246779000",
+        "timestamp": "2024-09-12T17:13:13Z",
+        "sog": 12.0,
+        "cog": 81.6,
+        "heading": 81,
+        "nav_status": 0,
+        "nav_status_text": "Under way using engine",
+        "message_type": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.04975,
+          57.054917
+        ]
+      },
+      "properties": {
+        "mmsi": 209239000,
+        "vessel_name": "Vessel_209239000",
+        "timestamp": "2024-09-12T17:13:14Z",
+        "sog": 0.0,
+        "cog": 226.6,
+        "heading": 126,
+        "nav_status": 5,
+        "nav_status_text": "Moored",
+        "message_type": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.3088,
+          56.991483
+        ]
+      },
+      "properties": {
+        "mmsi": 219016689,
+        "vessel_name": "Vessel_219016689",
+        "timestamp": "2024-09-12T17:13:16Z",
+        "sog": 0.0,
+        "cog": 317.5,
+        "heading": 285,
+        "nav_status": 15,
+        "nav_status_text": "Undefined",
+        "message_type": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.304432,
+          56.990863
+        ]
+      },
+      "properties": {
+        "mmsi": 219000873,
+        "vessel_name": "Vessel_219000873",
+        "timestamp": "2024-09-12T17:13:19Z",
+        "sog": 1.3,
+        "cog": 20.1,
+        "heading": null,
+        "nav_status": 0,
+        "nav_status_text": "Under way using engine",
+        "message_type": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.983793,
+          57.082225
+        ]
+      },
+      "properties": {
+        "mmsi": 219001083,
+        "vessel_name": "Vessel_219001083",
+        "timestamp": "2024-09-12T17:13:23Z",
+        "sog": 0.0,
+        "cog": 122.8,
+        "heading": 185,
+        "nav_status": 0,
+        "nav_status_text": "Under way using engine",
+        "message_type": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.251893,
+          56.983652
+        ]
+      },
+      "properties": {
+        "mmsi": 246779000,
+        "vessel_name": "Vessel_246779000",
+        "timestamp": "2024-09-12T17:13:23Z",
+        "sog": 12.0,
+        "cog": 79.8,
+        "heading": 80,
+        "nav_status": 0,
+        "nav_status_text": "Under way using engine",
+        "message_type": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.3088,
+          56.991483
+        ]
+      },
+      "properties": {
+        "mmsi": 219016689,
+        "vessel_name": "Vessel_219016689",
+        "timestamp": "2024-09-12T17:13:26Z",
+        "sog": 0.0,
+        "cog": 317.5,
+        "heading": 285,
+        "nav_status": 15,
+        "nav_status_text": "Undefined",
+        "message_type": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.05228,
+          57.04855
+        ]
+      },
+      "properties": {
+        "mmsi": 219001236,
+        "vessel_name": "Vessel_219001236",
+        "timestamp": "2024-09-12T17:13:32Z",
+        "sog": 0.0,
+        "cog": 219.9,
+        "heading": 323,
+        "nav_status": 5,
+        "nav_status_text": "Moored",
+        "message_type": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.983793,
+          57.08222
+        ]
+      },
+      "properties": {
+        "mmsi": 219001083,
+        "vessel_name": "Vessel_219001083",
+        "timestamp": "2024-09-12T17:13:33Z",
+        "sog": 0.0,
+        "cog": 122.8,
+        "heading": 185,
+        "nav_status": 0,
+        "nav_status_text": "Under way using engine",
+        "message_type": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.252987,
+          56.983765
+        ]
+      },
+      "properties": {
+        "mmsi": 246779000,
+        "vessel_name": "Vessel_246779000",
+        "timestamp": "2024-09-12T17:13:34Z",
+        "sog": 12.0,
+        "cog": 78.5,
+        "heading": 78,
+        "nav_status": 0,
+        "nav_status_text": "Under way using engine",
+        "message_type": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.3088,
+          56.991483
+        ]
+      },
+      "properties": {
+        "mmsi": 219016689,
+        "vessel_name": "Vessel_219016689",
+        "timestamp": "2024-09-12T17:13:35Z",
+        "sog": 0.0,
+        "cog": 317.5,
+        "heading": 284,
+        "nav_status": 15,
+        "nav_status_text": "Undefined",
+        "message_type": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.304487,
+          56.990913
+        ]
+      },
+      "properties": {
+        "mmsi": 219000873,
+        "vessel_name": "Vessel_219000873",
+        "timestamp": "2024-09-12T17:13:39Z",
+        "sog": 0.4,
+        "cog": 44.4,
+        "heading": null,
+        "nav_status": 0,
+        "nav_status_text": "Under way using engine",
+        "message_type": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.983793,
+          57.082218
+        ]
+      },
+      "properties": {
+        "mmsi": 219001083,
+        "vessel_name": "Vessel_219001083",
+        "timestamp": "2024-09-12T17:13:42Z",
+        "sog": 0.0,
+        "cog": 122.8,
+        "heading": 185,
+        "nav_status": 0,
+        "nav_status_text": "Under way using engine",
+        "message_type": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.25398,
+          56.98388
+        ]
+      },
+      "properties": {
+        "mmsi": 246779000,
+        "vessel_name": "Vessel_246779000",
+        "timestamp": "2024-09-12T17:13:44Z",
+        "sog": 12.0,
+        "cog": 77.7,
+        "heading": 77,
+        "nav_status": 0,
+        "nav_status_text": "Under way using engine",
+        "message_type": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.304538,
+          56.99094
+        ]
+      },
+      "properties": {
+        "mmsi": 219000873,
+        "vessel_name": "Vessel_219000873",
+        "timestamp": "2024-09-12T17:13:49Z",
+        "sog": 0.2,
+        "cog": 45.6,
+        "heading": null,
+        "nav_status": 0,
+        "nav_status_text": "Under way using engine",
+        "message_type": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.983782,
+          57.08222
+        ]
+      },
+      "properties": {
+        "mmsi": 219001083,
+        "vessel_name": "Vessel_219001083",
+        "timestamp": "2024-09-12T17:13:51Z",
+        "sog": 0.0,
+        "cog": 122.8,
+        "heading": 186,
+        "nav_status": 0,
+        "nav_status_text": "Under way using engine",
+        "message_type": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.254872,
+          56.983993
+        ]
+      },
+      "properties": {
+        "mmsi": 246779000,
+        "vessel_name": "Vessel_246779000",
+        "timestamp": "2024-09-12T17:13:53Z",
+        "sog": 12.0,
+        "cog": 77.2,
+        "heading": 77,
+        "nav_status": 0,
+        "nav_status_text": "Under way using engine",
+        "message_type": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.3088,
+          56.991483
+        ]
+      },
+      "properties": {
+        "mmsi": 219016689,
+        "vessel_name": "Vessel_219016689",
+        "timestamp": "2024-09-12T17:13:56Z",
+        "sog": 0.0,
+        "cog": 317.5,
+        "heading": 283,
+        "nav_status": 15,
+        "nav_status_text": "Undefined",
+        "message_type": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.052293,
+          57.048688
+        ]
+      },
+      "properties": {
+        "mmsi": 219012563,
+        "vessel_name": "Vessel_219012563",
+        "timestamp": "2024-09-12T17:13:57Z",
+        "sog": 0.0,
+        "cog": 195.7,
+        "heading": 60,
+        "nav_status": 5,
+        "nav_status_text": "Moored",
+        "message_type": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.304547,
+          56.990945
+        ]
+      },
+      "properties": {
+        "mmsi": 219000873,
+        "vessel_name": "Vessel_219000873",
+        "timestamp": "2024-09-12T17:13:59Z",
+        "sog": 0.0,
+        "cog": 45.6,
+        "heading": null,
+        "nav_status": 0,
+        "nav_status_text": "Under way using engine",
+        "message_type": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.983777,
+          57.082218
+        ]
+      },
+      "properties": {
+        "mmsi": 219001083,
+        "vessel_name": "Vessel_219001083",
+        "timestamp": "2024-09-12T17:14:02Z",
+        "sog": 0.0,
+        "cog": 122.8,
+        "heading": 186,
+        "nav_status": 0,
+        "nav_status_text": "Under way using engine",
+        "message_type": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.256057,
+          56.984153
+        ]
+      },
+      "properties": {
+        "mmsi": 246779000,
+        "vessel_name": "Vessel_246779000",
+        "timestamp": "2024-09-12T17:14:04Z",
+        "sog": 12.0,
+        "cog": 75.8,
+        "heading": 76,
+        "nav_status": 0,
+        "nav_status_text": "Under way using engine",
+        "message_type": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.3088,
+          56.991483
+        ]
+      },
+      "properties": {
+        "mmsi": 219016689,
+        "vessel_name": "Vessel_219016689",
+        "timestamp": "2024-09-12T17:14:05Z",
+        "sog": 0.0,
+        "cog": 317.5,
+        "heading": 283,
+        "nav_status": 15,
+        "nav_status_text": "Undefined",
+        "message_type": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.304548,
+          56.99094
+        ]
+      },
+      "properties": {
+        "mmsi": 219000873,
+        "vessel_name": "Vessel_219000873",
+        "timestamp": "2024-09-12T17:14:10Z",
+        "sog": 0.0,
+        "cog": 45.6,
+        "heading": null,
+        "nav_status": 0,
+        "nav_status_text": "Under way using engine",
+        "message_type": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.98377,
+          57.082222
+        ]
+      },
+      "properties": {
+        "mmsi": 219001083,
+        "vessel_name": "Vessel_219001083",
+        "timestamp": "2024-09-12T17:14:12Z",
+        "sog": 0.0,
+        "cog": 122.8,
+        "heading": 186,
+        "nav_status": 0,
+        "nav_status_text": "Under way using engine",
+        "message_type": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.25694,
+          56.984282
+        ]
+      },
+      "properties": {
+        "mmsi": 246779000,
+        "vessel_name": "Vessel_246779000",
+        "timestamp": "2024-09-12T17:14:13Z",
+        "sog": 12.0,
+        "cog": 74.9,
+        "heading": 75,
+        "nav_status": 0,
+        "nav_status_text": "Under way using engine",
+        "message_type": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.3088,
+          56.991483
+        ]
+      },
+      "properties": {
+        "mmsi": 219016689,
+        "vessel_name": "Vessel_219016689",
+        "timestamp": "2024-09-12T17:14:16Z",
+        "sog": 0.0,
+        "cog": 317.5,
+        "heading": 284,
+        "nav_status": 15,
+        "nav_status_text": "Undefined",
+        "message_type": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.30454,
+          56.990932
+        ]
+      },
+      "properties": {
+        "mmsi": 219000873,
+        "vessel_name": "Vessel_219000873",
+        "timestamp": "2024-09-12T17:14:19Z",
+        "sog": 0.0,
+        "cog": 45.6,
+        "heading": null,
+        "nav_status": 0,
+        "nav_status_text": "Under way using engine",
+        "message_type": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.983762,
+          57.082225
+        ]
+      },
+      "properties": {
+        "mmsi": 219001083,
+        "vessel_name": "Vessel_219001083",
+        "timestamp": "2024-09-12T17:14:22Z",
+        "sog": 0.0,
+        "cog": 122.8,
+        "heading": 187,
+        "nav_status": 0,
+        "nav_status_text": "Under way using engine",
+        "message_type": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.25792,
+          56.984428
+        ]
+      },
+      "properties": {
+        "mmsi": 246779000,
+        "vessel_name": "Vessel_246779000",
+        "timestamp": "2024-09-12T17:14:23Z",
+        "sog": 12.0,
+        "cog": 74.5,
+        "heading": 75,
+        "nav_status": 0,
+        "nav_status_text": "Under way using engine",
+        "message_type": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.3088,
+          56.991483
+        ]
+      },
+      "properties": {
+        "mmsi": 219016689,
+        "vessel_name": "Vessel_219016689",
+        "timestamp": "2024-09-12T17:14:25Z",
+        "sog": 0.0,
+        "cog": 317.5,
+        "heading": 284,
+        "nav_status": 15,
+        "nav_status_text": "Undefined",
+        "message_type": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.970887,
+          57.064233
+        ]
+      },
+      "properties": {
+        "mmsi": 209535000,
+        "vessel_name": "Vessel_209535000",
+        "timestamp": "2024-09-12T17:14:26Z",
+        "sog": 0.0,
+        "cog": 113.5,
+        "heading": 200,
+        "nav_status": 5,
+        "nav_status_text": "Moored",
+        "message_type": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.304537,
+          56.990927
+        ]
+      },
+      "properties": {
+        "mmsi": 219000873,
+        "vessel_name": "Vessel_219000873",
+        "timestamp": "2024-09-12T17:14:29Z",
+        "sog": 0.0,
+        "cog": 45.6,
+        "heading": null,
+        "nav_status": 0,
+        "nav_status_text": "Under way using engine",
+        "message_type": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.983758,
+          57.082227
+        ]
+      },
+      "properties": {
+        "mmsi": 219001083,
+        "vessel_name": "Vessel_219001083",
+        "timestamp": "2024-09-12T17:14:33Z",
+        "sog": 0.0,
+        "cog": 122.8,
+        "heading": 186,
+        "nav_status": 0,
+        "nav_status_text": "Under way using engine",
+        "message_type": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.258995,
+          56.984595
+        ]
+      },
+      "properties": {
+        "mmsi": 246779000,
+        "vessel_name": "Vessel_246779000",
+        "timestamp": "2024-09-12T17:14:34Z",
+        "sog": 12.0,
+        "cog": 74.0,
+        "heading": 74,
+        "nav_status": 0,
+        "nav_status_text": "Under way using engine",
+        "message_type": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.3088,
+          56.991483
+        ]
+      },
+      "properties": {
+        "mmsi": 219016689,
+        "vessel_name": "Vessel_219016689",
+        "timestamp": "2024-09-12T17:14:36Z",
+        "sog": 0.0,
+        "cog": 317.5,
+        "heading": 284,
+        "nav_status": 15,
+        "nav_status_text": "Undefined",
+        "message_type": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.304528,
+          56.990923
+        ]
+      },
+      "properties": {
+        "mmsi": 219000873,
+        "vessel_name": "Vessel_219000873",
+        "timestamp": "2024-09-12T17:14:39Z",
+        "sog": 0.0,
+        "cog": 45.6,
+        "heading": null,
+        "nav_status": 0,
+        "nav_status_text": "Under way using engine",
+        "message_type": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.543265,
+          57.43485
+        ]
+      },
+      "properties": {
+        "mmsi": 265177000,
+        "vessel_name": "Vessel_265177000",
+        "timestamp": "2024-09-12T17:14:40Z",
+        "sog": 0.0,
+        "cog": 53.5,
+        "heading": 270,
+        "nav_status": 0,
+        "nav_status_text": "Under way using engine",
+        "message_type": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.048052,
+          57.055653
+        ]
+      },
+      "properties": {
+        "mmsi": 219164000,
+        "vessel_name": "Vessel_219164000",
+        "timestamp": "2024-09-12T17:14:41Z",
+        "sog": 0.0,
+        "cog": 249.2,
+        "heading": 307,
+        "nav_status": 5,
+        "nav_status_text": "Moored",
+        "message_type": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.882103,
+          57.059
+        ]
+      },
+      "properties": {
+        "mmsi": 219015127,
+        "vessel_name": "Vessel_219015127",
+        "timestamp": "2024-09-12T17:14:41Z",
+        "sog": 0.0,
+        "cog": 187.0,
+        "heading": 20,
+        "nav_status": 5,
+        "nav_status_text": "Moored",
+        "message_type": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.983758,
+          57.082227
+        ]
+      },
+      "properties": {
+        "mmsi": 219001083,
+        "vessel_name": "Vessel_219001083",
+        "timestamp": "2024-09-12T17:14:41Z",
+        "sog": 0.0,
+        "cog": 122.8,
+        "heading": 185,
+        "nav_status": 0,
+        "nav_status_text": "Under way using engine",
+        "message_type": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.259973,
+          56.984747
+        ]
+      },
+      "properties": {
+        "mmsi": 246779000,
+        "vessel_name": "Vessel_246779000",
+        "timestamp": "2024-09-12T17:14:44Z",
+        "sog": 12.0,
+        "cog": 74.0,
+        "heading": 74,
+        "nav_status": 0,
+        "nav_status_text": "Under way using engine",
+        "message_type": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.304538,
+          56.99093
+        ]
+      },
+      "properties": {
+        "mmsi": 219000873,
+        "vessel_name": "Vessel_219000873",
+        "timestamp": "2024-09-12T17:14:49Z",
+        "sog": 0.0,
+        "cog": 45.6,
+        "heading": null,
+        "nav_status": 0,
+        "nav_status_text": "Under way using engine",
+        "message_type": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.983757,
+          57.082225
+        ]
+      },
+      "properties": {
+        "mmsi": 219001083,
+        "vessel_name": "Vessel_219001083",
+        "timestamp": "2024-09-12T17:14:51Z",
+        "sog": 0.0,
+        "cog": 122.8,
+        "heading": 185,
+        "nav_status": 0,
+        "nav_status_text": "Under way using engine",
+        "message_type": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.260757,
+          56.984867
+        ]
+      },
+      "properties": {
+        "mmsi": 246779000,
+        "vessel_name": "Vessel_246779000",
+        "timestamp": "2024-09-12T17:14:53Z",
+        "sog": 12.0,
+        "cog": 74.3,
+        "heading": 75,
+        "nav_status": 0,
+        "nav_status_text": "Under way using engine",
+        "message_type": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.971517,
+          57.065468
+        ]
+      },
+      "properties": {
+        "mmsi": 209671000,
+        "vessel_name": "Vessel_209671000",
+        "timestamp": "2024-09-12T17:14:55Z",
+        "sog": 0.0,
+        "cog": 264.4,
+        "heading": 200,
+        "nav_status": 5,
+        "nav_status_text": "Moored",
+        "message_type": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.3088,
+          56.991483
+        ]
+      },
+      "properties": {
+        "mmsi": 219016689,
+        "vessel_name": "Vessel_219016689",
+        "timestamp": "2024-09-12T17:14:56Z",
+        "sog": 0.0,
+        "cog": 317.5,
+        "heading": 286,
+        "nav_status": 15,
+        "nav_status_text": "Undefined",
+        "message_type": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.304517,
+          56.990915
+        ]
+      },
+      "properties": {
+        "mmsi": 219000873,
+        "vessel_name": "Vessel_219000873",
+        "timestamp": "2024-09-12T17:14:59Z",
+        "sog": 0.0,
+        "cog": 45.6,
+        "heading": null,
+        "nav_status": 0,
+        "nav_status_text": "Under way using engine",
+        "message_type": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.983753,
+          57.082225
+        ]
+      },
+      "properties": {
+        "mmsi": 219001083,
+        "vessel_name": "Vessel_219001083",
+        "timestamp": "2024-09-12T17:15:02Z",
+        "sog": 0.0,
+        "cog": 122.8,
+        "heading": 184,
+        "nav_status": 0,
+        "nav_status_text": "Under way using engine",
+        "message_type": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.261933,
+          56.985032
+        ]
+      },
+      "properties": {
+        "mmsi": 246779000,
+        "vessel_name": "Vessel_246779000",
+        "timestamp": "2024-09-12T17:15:04Z",
+        "sog": 12.1,
+        "cog": 75.1,
+        "heading": 76,
+        "nav_status": 0,
+        "nav_status_text": "Under way using engine",
+        "message_type": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.30833,
+          56.990952
+        ]
+      },
+      "properties": {
+        "mmsi": 219000872,
+        "vessel_name": "Vessel_219000872",
+        "timestamp": "2024-09-12T17:15:09Z",
+        "sog": 0.0,
+        "cog": 359.8,
+        "heading": null,
+        "nav_status": 5,
+        "nav_status_text": "Moored",
+        "message_type": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.30454,
+          56.990928
+        ]
+      },
+      "properties": {
+        "mmsi": 219000873,
+        "vessel_name": "Vessel_219000873",
+        "timestamp": "2024-09-12T17:15:10Z",
+        "sog": 0.0,
+        "cog": 45.6,
+        "heading": null,
+        "nav_status": 0,
+        "nav_status_text": "Under way using engine",
+        "message_type": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.983747,
+          57.082227
+        ]
+      },
+      "properties": {
+        "mmsi": 219001083,
+        "vessel_name": "Vessel_219001083",
+        "timestamp": "2024-09-12T17:15:12Z",
+        "sog": 0.0,
+        "cog": 122.8,
+        "heading": 184,
+        "nav_status": 0,
+        "nav_status_text": "Under way using engine",
+        "message_type": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.26273,
+          56.985138
+        ]
+      },
+      "properties": {
+        "mmsi": 246779000,
+        "vessel_name": "Vessel_246779000",
+        "timestamp": "2024-09-12T17:15:13Z",
+        "sog": 12.1,
+        "cog": 75.5,
+        "heading": 77,
+        "nav_status": 0,
+        "nav_status_text": "Under way using engine",
+        "message_type": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.3088,
+          56.991483
+        ]
+      },
+      "properties": {
+        "mmsi": 219016689,
+        "vessel_name": "Vessel_219016689",
+        "timestamp": "2024-09-12T17:15:16Z",
+        "sog": 0.0,
+        "cog": 317.5,
+        "heading": 286,
+        "nav_status": 15,
+        "nav_status_text": "Undefined",
+        "message_type": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.983743,
+          57.082232
+        ]
+      },
+      "properties": {
+        "mmsi": 219001083,
+        "vessel_name": "Vessel_219001083",
+        "timestamp": "2024-09-12T17:15:22Z",
+        "sog": 0.0,
+        "cog": 122.8,
+        "heading": 185,
+        "nav_status": 0,
+        "nav_status_text": "Under way using engine",
+        "message_type": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.263722,
+          56.985273
+        ]
+      },
+      "properties": {
+        "mmsi": 246779000,
+        "vessel_name": "Vessel_246779000",
+        "timestamp": "2024-09-12T17:15:23Z",
+        "sog": 12.1,
+        "cog": 75.8,
+        "heading": 77,
+        "nav_status": 0,
+        "nav_status_text": "Under way using engine",
+        "message_type": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.304547,
+          56.99093
+        ]
+      },
+      "properties": {
+        "mmsi": 219000873,
+        "vessel_name": "Vessel_219000873",
+        "timestamp": "2024-09-12T17:15:29Z",
+        "sog": 0.0,
+        "cog": 45.6,
+        "heading": null,
+        "nav_status": 0,
+        "nav_status_text": "Under way using engine",
+        "message_type": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.983743,
+          57.082235
+        ]
+      },
+      "properties": {
+        "mmsi": 219001083,
+        "vessel_name": "Vessel_219001083",
+        "timestamp": "2024-09-12T17:15:33Z",
+        "sog": 0.0,
+        "cog": 122.8,
+        "heading": 186,
+        "nav_status": 0,
+        "nav_status_text": "Under way using engine",
+        "message_type": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.264813,
+          56.985422
+        ]
+      },
+      "properties": {
+        "mmsi": 246779000,
+        "vessel_name": "Vessel_246779000",
+        "timestamp": "2024-09-12T17:15:34Z",
+        "sog": 12.1,
+        "cog": 75.7,
+        "heading": 76,
+        "nav_status": 0,
+        "nav_status_text": "Under way using engine",
+        "message_type": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.3088,
+          56.991483
+        ]
+      },
+      "properties": {
+        "mmsi": 219016689,
+        "vessel_name": "Vessel_219016689",
+        "timestamp": "2024-09-12T17:15:36Z",
+        "sog": 0.0,
+        "cog": 317.5,
+        "heading": 287,
+        "nav_status": 15,
+        "nav_status_text": "Undefined",
+        "message_type": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.304548,
+          56.990928
+        ]
+      },
+      "properties": {
+        "mmsi": 219000873,
+        "vessel_name": "Vessel_219000873",
+        "timestamp": "2024-09-12T17:15:39Z",
+        "sog": 0.0,
+        "cog": 45.6,
+        "heading": null,
+        "nav_status": 0,
+        "nav_status_text": "Under way using engine",
+        "message_type": 1
+      }
+    }
+  ]
+}
