@@ -259,7 +259,11 @@
       <div class="coord-chip panel">Z <b id="c-z">—</b></div>
     </div>
 
-    <script src="ais_data.js"></script>
-    <script src="ais_dashboard.js"></script>
+    <script>
+      fetch('ais_data.geojson')
+        .then(r=>r.json())
+        .then(d=>{ window.AIS_DATA = d; })
+        .finally(()=>{ const s=document.createElement('script'); s.src='ais_dashboard.js'; document.body.appendChild(s); });
+    </script>
   </body>
 </html>
