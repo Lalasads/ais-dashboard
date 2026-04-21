@@ -199,6 +199,10 @@ function applyFilter() {
     if (q && !searchIndex[i].includes(q)) continue;
     filteredCache.push(i);
   }
+  filteredCache.sort((a,b) => {
+    const na = allVessels[a].properties.name, nb = allVessels[b].properties.name;
+    if (!na && nb) return 1; if (na && !nb) return -1; return 0;
+  });
   document.getElementById("vcnt").textContent = filteredCache.length.toLocaleString();
   renderList(true);
 }
