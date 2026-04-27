@@ -12,7 +12,10 @@
       rel="stylesheet"
       href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
     />
-    <link rel="stylesheet" href="ais_dashboard.css" />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/dashboard.css') }}"
+    />
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   </head>
   <body>
@@ -92,21 +95,16 @@
         </div>
       </div>
       <div class="topbar-right">
-        <div
-          class="upload-btn"
-          onclick="document.getElementById('file-input').click()"
-        >
-          <svg
-            width="13"
-            height="13"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2.5"
-          >
-            <path
-              d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4M17 8l-5-5-5 5M12 3v12"
-            />
+        <div class="upload-btn ais-raw-btn" onclick="document.getElementById('ais-raw-input').click()">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+            <polyline points="22 12 18 12 15 21 9 3 6 12 2 12" />
+          </svg>
+          Import AIS Raw
+        </div>
+        <input type="file" id="ais-raw-input" accept=".txt" />
+        <div class="upload-btn" onclick="document.getElementById('file-input').click()">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+            <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4M17 8l-5-5-5 5M12 3v12" />
           </svg>
           Load GeoJSON
         </div>
@@ -259,10 +257,18 @@
     </div>
 
     <script>
-      fetch('ais_data.geojson')
-        .then(r=>r.json())
-        .then(d=>{ window.AIS_DATA = d; })
-        .finally(()=>{ const s=document.createElement('script'); s.src='ais_dashboard.js'; document.body.appendChild(s); });
+      fetch("{{ url_for('api_data') }}")
+        .then((r) => r.json())
+        .then((d) => {
+          window.AIS_DATA = d;
+        })
+        .finally(() => {
+          const s = document.createElement("script");
+          s.src = "{{ url_for('static', filename='js/dashboard.js') }}";
+          document.body.appendChild(s);
+        });
     </script>
   </body>
 </html>
+
+<!--source /home/lalasa/ais/venv/bin/activate-->
