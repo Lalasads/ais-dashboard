@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>AIS Viewer</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    />
+    <link rel="stylesheet" href="static/css/dashboard.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  </head>
+  <body>
+    <!-- LOADER -->
+    <div class="loader" id="loader">
+      <div
+        style="
+          width: 32px;
+          height: 32px;
+          border-radius: 8px;
+          background: var(--coral);
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        "
+      >
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+          <path d="M12 2L22 20H2L12 2Z" fill="white" />
+        </svg>
+      </div>
+      <div class="loader-name">AIS Viewer</div>
+      <div class="loader-bar-track">
+        <div class="loader-bar" id="lbar"></div>
+      </div>
+      <div class="loader-sub" id="lsub">loading…</div>
+    </div>
+
+    <div id="map"></div>
+    <canvas
+      id="vessel-canvas"
+      style="position: fixed; inset: 0; z-index: 1; pointer-events: none"
+    ></canvas>
+
+    <!-- HOVER TOOLTIP -->
+    <div id="htip">
+      <div class="ht-name" id="ht-name"></div>
+      <div class="ht-grid">
+        <span class="ht-k">MMSI</span><span class="ht-v" id="ht-mmsi"></span>
+        <div class="ht-sep"></div>
+        <span class="ht-k">Lat</span><span class="ht-v" id="ht-lat"></span>
+        <span class="ht-k">Lng</span><span class="ht-v" id="ht-lng"></span>
+        <div class="ht-sep"></div>
+        <span class="ht-k">Heading</span><span class="ht-v" id="ht-hdg"></span>
+        <span class="ht-k">Speed</span><span class="ht-v" id="ht-spd"></span>
+        <span class="ht-k">Status</span><span class="ht-v" id="ht-st"></span>
+      </div>
+    </div>
+
+    <!-- TOP BAR -->
+    <div class="topbar">
+      <div class="brand">
+        <div class="brand-icon">
+          <svg viewBox="0 0 24 24"><path d="M12 2L22 20H2L12 2Z" /></svg>
+        </div>
+        <span class="brand-name">AIS Viewer</span>
+        <div class="live-badge" style="margin-left: 10px">
+          <div class="live-dot"></div>
+          <span class="live-text">live</span>
+        </div>
+      </div>
+      <div class="stats-row">
+        <div class="stat-chip">
+          <span class="sc-val" id="s-total">—</span
+          ><span class="sc-lbl">Vessels</span>
+        </div>
+        <div class="stat-chip uw">
+          <span class="sc-val" id="s-uw">—</span
+          ><span class="sc-lbl">Underway</span>
+        </div>
+        <div class="stat-chip mo">
+          <span class="sc-val" id="s-mo">—</span
+          ><span class="sc-lbl">Moored</span>
+        </div>
+        <div class="stat-chip an">
+          <span class="sc-val" id="s-an">—</span
+          ><span class="sc-lbl">At Anchor</span>
+        </div>
+      </div>
+      <div class="topbar-right">
+        <div class="upload-btn ais-raw-btn" onclick="document.getElementById('ais-raw-input').click()">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+            <polyline points="22 12 18 12 15 21 9 3 6 12 2 12" />
+          </svg>
+          Import AIS Raw
+        </div>
+        <input type="file" id="ais-raw-input" accept=".txt" />
+        <div class="upload-btn" onclick="document.getElementById('file-input').click()">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+            <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4M17 8l-5-5-5 5M12 3v12" />
+          </svg>
+          Load GeoJSON
+        </div>
+        <input type="file" id="file-input" accept=".geojson,.json" />
+      </div>
+    </div>
+
+    <!-- ZOOM CLUSTER -->
+    <div class="zoom-cluster">
+      <div class="zoom-btn" onclick="map.zoomIn()">+</div>
+      <div class="zoom-divider"></div>
+      <div class="zoom-btn" onclick="map.zoomOut()">−</div>
+      <div class="zoom-divider"></div>
+      <div class="zoom-btn" title="Fit all" onclick="fitAll()" style="font-size: 14px">⤢</div>
+      <div class="zoom-divider"></div>
+      <div class="zoom-btn" id="draw-btn" title="Draw bounding box" onclick="startDraw()" style="font-size: 14px">⬚</div>
+      <div class="zoom-label" id="zoom-lbl">z3</div>
+    </div>
+
+    <!-- LEFT PANEL -->
+    <div class="left-panel panel" id="left-panel">
+      <div class="panel-head" onclick="toggleLeft()">
+        <span class="panel-title">Vessel Registry</span>
+        <span class="count-badge" id="vcnt">0</span>
+        <span class="toggle-btn">‹</span>
+      </div>
+      <div class="panel-body">
+        <div class="search-box">
+          <input type="text" id="search-inp" placeholder="Search name or MMSI…" />
+        </div>
+        <div class="filter-bar">
+          <span class="fchip active all" data-f="all">All</span>
+          <span class="fchip uw" data-f="underway">Underway</span>
+          <span class="fchip mo" data-f="moored">Moored</span>
+          <span class="fchip an" data-f="anchor">Anchor</span>
+          <span class="fchip ot" data-f="other">Other</span>
+        </div>
+        <div class="vlist-outer" id="vlist-outer">
+          <div class="vlist-inner" id="vlist-inner">
+            <div class="vlist-vp" id="vlist-vp">
+              <div class="no-data" style="position: static">
+                Load a GeoJSON file<br />to begin tracking
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- RIGHT DETAIL -->
+    <div class="right-panel panel" id="right-panel">
+      <div class="rp-close" onclick="closeDetail()">✕</div>
+      <div id="rp-content"></div>
+    </div>
+
+    <!-- LEGEND -->
+    <div class="legend panel">
+      <div class="legend-title">Vessel Status</div>
+      <div class="l-row">
+        <div class="l-shape">
+          <svg width="10" height="10" viewBox="-5 -5 10 10">
+            <polygon points="0,-5 4.3,2.5 -4.3,2.5" fill="#38b6e8" />
+          </svg>
+        </div>
+        <span class="l-label">Underway</span>
+      </div>
+      <div class="l-row">
+        <div class="l-shape">
+          <svg width="10" height="10" viewBox="-5 -5 10 10">
+            <rect x="-4" y="-4" width="8" height="8" rx="1" fill="#f5a623" />
+          </svg>
+        </div>
+        <span class="l-label">Moored</span>
+      </div>
+      <div class="l-row">
+        <div class="l-shape">
+          <svg width="10" height="10" viewBox="-5 -5 10 10">
+            <polygon points="0,5 4.3,-2.5 -4.3,-2.5" fill="#9b7dea" />
+          </svg>
+        </div>
+        <span class="l-label">At Anchor</span>
+      </div>
+      <div class="l-row">
+        <div class="l-shape">
+          <svg width="10" height="10" viewBox="-5 -5 10 10">
+            <circle cx="0" cy="0" r="4" fill="#4d7a9e" />
+          </svg>
+        </div>
+        <span class="l-label">Other</span>
+      </div>
+    </div>
+
+    <!-- BBOX PANEL -->
+    <div class="bbox-panel panel" id="bbox-panel">
+      <div class="bbox-head">
+        <span class="bbox-title">Bounding Box Query</span>
+        <span class="bbox-hint">Enter coords or use the ⬚ draw button →</span>
+      </div>
+      <div class="bbox-form">
+        <input id="bb-slat" placeholder="S Lat" type="number" step="any" />
+        <input id="bb-wlng" placeholder="W Lng" type="number" step="any" />
+        <span class="bbox-sep">→</span>
+        <input id="bb-nlat" placeholder="N Lat" type="number" step="any" />
+        <input id="bb-elng" placeholder="E Lng" type="number" step="any" />
+        <button class="bbox-form-btn" onclick="runBbox()">count</button>
+        <button class="bbox-form-btn draw" onclick="startDraw()">draw ⬚</button>
+      </div>
+      <div class="bbox-result" id="bbox-res">
+        <span class="bbox-result-num" id="bbox-num">0</span>
+        <span class="bbox-result-msg" id="bbox-msg"></span>
+      </div>
+    </div>
+
+    <!-- COORD BAR -->
+    <div class="coord-bar">
+      <div class="coord-chip panel" title="Click to copy lat/lng" onclick="copyCoords()">
+        Lat <b id="c-lat">—</b>
+      </div>
+      <div class="coord-chip panel" title="Click to copy lat/lng" onclick="copyCoords()">
+        Lng <b id="c-lng">—</b>
+      </div>
+      <div class="coord-chip panel">Z <b id="c-z">—</b></div>
+    </div>
+
+    <script src="static/js/dashboard.js"></script>
+  </body>
+</html>
